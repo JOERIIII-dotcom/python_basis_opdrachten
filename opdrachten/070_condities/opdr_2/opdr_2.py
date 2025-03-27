@@ -1,6 +1,6 @@
 # Opdracht 2 condities
-# Naam student:
-# Groep:
+# Naam student:Joeri
+# Groep:itx3
 
 # Hier komt je code...
 
@@ -8,6 +8,7 @@
 
 my_list = [43948, 878768, 38768, 87555, 765765]
 
-# for...:
-#   if...:
-#       print()
+# Print de getallen die deelbaar zijn door 3
+for getal in my_list:
+    if getal % 3 == 0:
+        print(getal)

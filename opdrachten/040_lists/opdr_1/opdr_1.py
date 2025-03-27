@@ -1,9 +1,14 @@
 # Opdracht 1 lists
-# Naam student:
-# Groep:
+# Naam student:joeri
+# Groep:itx3
 
-mylist = ...
-dict_1 = ...
-dict_2 = ...
-dict_3 = ...
-dict_4 = ...
+# Hier komt je code...
+
+mylist = [
+    {"id": 0, "voornaam": "Jan", "achternaam": "Jansen"},
+    {"id": 1, "voornaam": "Piet", "achternaam": "Pietersen"},
+    {"id": 2, "voornaam": "Klaas", "achternaam": "Klaassen"},
+    {"id": 3, "voornaam": "Anna", "achternaam": "De Vries"}
+]
+#engels nederlands kan allemaal dict_1 werkte niet
+print(mylist[1]["voornaam"], mylist[1]["achternaam"])
